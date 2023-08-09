@@ -1,0 +1,25 @@
+{
+    "name": "xanadreel/wp-install-custom",
+    "description": "WordPress custom install",
+    "type": "project",
+    "license": "GPL-3.0-or-later",
+    "autoload": {
+        "psr-4": {
+            "Xanadreel\\WpInstallCustom\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Alexandre Sauvaget",
+            "email": "a.sauvaget@tuta.io"
+        }
+    ],
+    "require": {
+        "johnpbloch/wordpress": "^6.2"
+    },
+    "config": {
+        "allow-plugins": {
+            "johnpbloch/wordpress-core-installer": true
+        }
+    }
+}
