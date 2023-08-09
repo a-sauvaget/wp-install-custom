@@ -1,25 +1,48 @@
 {
-    "name": "xanadreel/wp-install-custom",
-    "description": "WordPress custom install",
-    "type": "project",
-    "license": "GPL-3.0-or-later",
-    "autoload": {
-        "psr-4": {
-            "Xanadreel\\WpInstallCustom\\": "src/"
-        }
-    },
-    "authors": [
-        {
-            "name": "Alexandre Sauvaget",
-            "email": "a.sauvaget@tuta.io"
-        }
-    ],
-    "require": {
-        "johnpbloch/wordpress": "^6.2"
-    },
-    "config": {
-        "allow-plugins": {
-            "johnpbloch/wordpress-core-installer": true
-        }
-    }
+	"name": "xanadreel/wp-install-custom",
+	"description": "WordPress custom install",
+	"type": "project",
+	"license": "GPL-3.0-or-later",
+	"autoload": {
+		"psr-4": {
+			"Xanadreel\\WpInstallCustom\\": "src/"
+		}
+	},
+	"authors": [
+		{
+			"name": "Alexandre Sauvaget",
+			"email": "a.sauvaget@tuta.io"
+		}
+	],
+	"repositories": {
+		"wppackagist": {
+			"type": "composer",
+			"url": "https://wpackagist.org"
+		}
+	},
+	"require": {
+		"johnpbloch/wordpress": "^6.2",
+		"wpackagist-theme/twentytwenty": "^2.2",
+		"wpackagist-plugin/query-monitor": "^3.13"
+	},
+	"extra": {
+		"wordpress-install-dir": "wp-core",
+		"installer-paths": {
+			"content/themes/{$name}": [
+				"type:wordpress-theme"
+			],
+			"content/plugins/{$name}/": [
+				"type:wordpress-plugin"
+			],
+			"content/mu-plugins/{$name}/": [
+				"type:wordpress-muplugin"
+			]
+		}
+	},
+	"config": {
+		"allow-plugins": {
+			"johnpbloch/wordpress-core-installer": true,
+			"composer/installers": true
+		}
+	}
 }

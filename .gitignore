@@ -1,0 +1,6 @@
+vendor/
+wp-core/
+wp-config.php
+/content/upgrade
+/content/plugins/*/
+/content/themes/*/
