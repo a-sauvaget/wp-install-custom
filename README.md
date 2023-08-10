@@ -2,6 +2,7 @@
 
 ## Prerequisites
 
+- [LAMP Stack](https://doc.ubuntu-fr.org/lamp)
 - [Composer](https://getcomposer.org/)
 - [WP-CLI](https://wp-cli.org/fr/)
 
