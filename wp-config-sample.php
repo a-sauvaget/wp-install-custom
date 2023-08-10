@@ -66,7 +66,7 @@ define('NONCE_SALT',       'put your unique phrase here');
  * You can have multiple installations in one database if you give each
  * a unique prefix. Only numbers, letters, and underscores please!
  */
-$table_prefix = 'wp_';
+$table_prefix = 'wic_';
 
 /**
  * For developers: WordPress debugging mode.
@@ -80,7 +80,7 @@ $table_prefix = 'wp_';
  *
  * @link https://wordpress.org/documentation/article/debugging-in-wordpress/
  */
-define('WP_DEBUG', false);
+define('WP_DEBUG', true);
 
 define('WP_HOME', rtrim('put_your_home_url_here', '/'));
 define('WP_SITEURL', WP_HOME . '/wp-core');
