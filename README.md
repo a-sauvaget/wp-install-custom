@@ -21,8 +21,14 @@
    - `sudo chmod g-w .htaccess`
 5.. Install WordPress with `wp core install --prompt` ([more details](https://developer.wordpress.org/cli/commands/core/install/))
 
-## Useful WP-CLI commands
+## Useful commands
+
+### WP CLI
 
 - Install a new language: `wp language core install fr_FR`
 - Activate a language: `wp site switch-language fr_FR`
 - Install latest version and activate a plugin: `wp plugin install bbpress --activate`
+
+### Others
+
+- Test a PHP file with PHPCS: `composer run test ./index.php`
