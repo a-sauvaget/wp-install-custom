@@ -1,11 +1,5 @@
 <?php
 /**
-* Forces the filesystem method
-* @link https://developer.wordpress.org/apis/wp-config-php/#wordpress-upgrade-constants
-*/
-define('FS_METHOD', 'direct');
-
-/**
 * Controls the reporting of some errors and warnings
 * @link https://developer.wordpress.org/apis/wp-config-php/#configure-error-logging
 */
