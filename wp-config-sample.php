@@ -97,6 +97,7 @@ define('ENVIRONMENT', 'production');
 
 if (!defined('ENVIRONMENT') && WP_DEBUG) {
   error_log('The ENVIRONMENT constant is not defined.');
+  die;
 } else {
   switch (ENVIRONMENT) {
     case 'production':
@@ -111,6 +112,7 @@ if (!defined('ENVIRONMENT') && WP_DEBUG) {
     default:
       if (WP_DEBUG) {
         error_log('The ENVIRONMENT constant value is not valid.');
+        die;
       }
   }
 }
