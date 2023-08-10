@@ -80,7 +80,7 @@ $table_prefix = 'wic_';
  *
  * @link https://wordpress.org/documentation/article/debugging-in-wordpress/
  */
-define('WP_DEBUG', true);
+define('WP_DEBUG', false);
 
 define('WP_HOME', rtrim('put_your_home_url_here', '/'));
 define('WP_SITEURL', WP_HOME . '/wp-core');
