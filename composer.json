@@ -27,7 +27,20 @@
     "php": ">=8.0",
 		"johnpbloch/wordpress": "^6.2",
 		"wpackagist-theme/twentytwenty": "^2.2",
-		"wpackagist-plugin/query-monitor": "^3.13"
+		"wpackagist-plugin/query-monitor": "^3.13",
+    "wpackagist-plugin/simply-show-hooks": "*",
+    "wpackagist-plugin/what-the-file": "*",
+    "wpackagist-plugin/advanced-custom-fields": "*",
+    "wpackagist-plugin/contact-form-7": "*",
+    "wpackagist-plugin/wp-super-cache": "*",
+    "wpackagist-plugin/custom-post-type-ui": "*",
+    "wpackagist-plugin/duplicator": "*",
+    "wpackagist-plugin/ewww-image-optimizer": "*",
+    "wpackagist-plugin/secupress": "*",
+    "wpackagist-plugin/complianz-gdpr": "*",
+    "wpackagist-plugin/matomo": "*",
+    "wpackagist-plugin/autodescription": "*",
+    "wpackagist-plugin/disable-comments": "*"
 	},
   "require-dev": {
     "squizlabs/php_codesniffer": "^3.7.1",

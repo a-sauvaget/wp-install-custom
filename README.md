@@ -15,10 +15,14 @@
     2. [Salt keys](https://api.wordpress.org/secret-key/1.1/salt/)
     3. Homepage URL (constant `WP_HOME`)
 4. Change right of the current directory:
-   - `sudo chown -R $USER:www-data .`
-   - `sudo find . -type f -exec chmod 664 {} +`
-   - `sudo find . -type d -exec chmod 775 {} +`
-   - `sudo chmod g-w .htaccess`
+
+```bash
+sudo chown -R $USER:www-data .
+sudo find . -type f -exec chmod 664 {} +
+sudo find . -type d -exec chmod 775 {} +
+sudo chmod g-w .htaccess
+```
+
 5.. Install WordPress with `wp core install --prompt` ([more details](https://developer.wordpress.org/cli/commands/core/install/))
 
 ## Useful commands

@@ -1,6 +1,8 @@
 vendor/
 wp-core/
 wp-config.php
+/content/*
+/content/cache
 /content/languages
 /content/upgrade
 /content/uploads
