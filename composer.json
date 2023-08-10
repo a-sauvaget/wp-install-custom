@@ -75,7 +75,8 @@
       "phpcs"
     ],
     "clean-wp-install": [
-      "rm -r wp-core/wp-content"
+      "rm -r wp-core/wp-content",
+			"rm wp-core/readme.html"
     ],
     "post-install-cmd": [
       "@clean-wp-install"
