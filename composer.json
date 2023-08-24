@@ -40,7 +40,9 @@
     "wpackagist-plugin/complianz-gdpr": "^6.5",
     "wpackagist-plugin/matomo": "^4.15",
     "wpackagist-plugin/autodescription": "^4.2",
-    "wpackagist-plugin/disable-comments": "^2.4"
+    "wpackagist-plugin/disable-comments": "^2.4",
+		"wpackagist-plugin/theme-check": "*",
+		"wpackagist-plugin/wordpress-importer": "*"
 	},
   "require-dev": {
     "squizlabs/php_codesniffer": "^3.7.1",

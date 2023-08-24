@@ -32,6 +32,7 @@ sudo chmod g-w .htaccess
 - Install a new language: `wp language core install fr_FR`
 - Activate a language: `wp site switch-language fr_FR`
 - Install latest version and activate a plugin: `wp plugin install bbpress --activate`
+- Update WordPress: `wp core update`
 
 ### Others
 
